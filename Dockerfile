@@ -3,6 +3,6 @@
 FROM node:18.16.0-alpine
 WORKDIR /
 COPY . .
-RUN npm install --production
+RUN npm install --omit=dev
 CMD ["node", "server.js"]
 EXPOSE 3000
