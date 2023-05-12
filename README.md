@@ -10,9 +10,17 @@ Use with:
     * express v4.18.2
 * docker v20.10.5+dfsg1, build 55c4c88
 
-## 2.0: Notes
+## 2.0: Creating Docker Image
 
-### 2.1: Charset
+Copy desired content to **public** directory, then from root directory of the project run command in terminal:
+
+```bash
+$ docker build -t <IMAGE NAME> .
+```
+
+## 3.0: Notes
+
+### 3.1: Charset
 
 To enforce charset for .html files use middleware. Example (Windows-1250 encoding):
 
@@ -24,6 +32,6 @@ app.use((req, res, next) => {
 });
 ```
 
-## 3.0: License
+## 4.0: License
 
 [MIT](https://github.com/mmarkovic85/js-build-static-website-server-docker-image/blob/main/LICENSE)
