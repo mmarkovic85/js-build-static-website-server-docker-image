@@ -1,6 +1,6 @@
 {
   "name": "js-build-static-website-server-docker-image",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Used to create static website docker images.",
   "author": "Miloš Marković <milosmarkovic85@gmail.com>",
   "license": "MIT",
