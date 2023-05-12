@@ -1,6 +1,6 @@
-# Template for Static Website Server
+# Build Static Website Server Docker Image
 
-Template for static website server, for use in creating Docker images.
+Used to create static website docker images.
 
 ## Dependencies
 
@@ -12,4 +12,4 @@ Use with:
 
 ## License
 
-[MIT](https://github.com/mmarkovic85/js-temp-static-website-server/blob/main/LICENSE)
+[MIT](https://github.com/mmarkovic85/js-build-static-website-server-docker-image/blob/main/LICENSE)

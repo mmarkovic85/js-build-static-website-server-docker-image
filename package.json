@@ -1,10 +1,10 @@
 {
-  "name": "js-temp-static-website-server",
+  "name": "js-build-static-website-server-docker-image",
   "version": "1.0.0",
-  "description": "Template for static website server.",
+  "description": "Used to create static website docker images.",
   "author": "Miloš Marković <milosmarkovic85@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
